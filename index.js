@@ -1,6 +1,6 @@
-var myRequest = new Request("https://coinmarketcap.com/ru/currencies/toncoin/");
 
-fetch(myRequest)
-  .then(function (response) {
-    return response.text();
-  });
+
+const response = await fetch("https://coinmarketcap.com/ru/currencies/toncoin/", {
+  method: "POST",
+  // ...
+});
