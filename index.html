@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
         <title>in ton we trust</title>
     <style>
         body{
@@ -36,6 +37,12 @@
 <div class="coinmarketcap-currency-widget" data-currencyid="11419" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="" data-stats="USD">
     </div>
         <h3>Тонкоин нативный токен блокчейна тон</h3>
+           <script>
+    const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+        manifestUrl: 'https://<YOUR_APP_URL>/tonconnect-manifest.json',
+        buttonRootId: '<YOUR_CONNECT_BUTTON_ANCHOR_ID>'
+    });
+</script>
            <h3>Это единственный токен сети</h3>
       
        </body>
