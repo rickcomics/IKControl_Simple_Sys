@@ -1,5 +1,5 @@
 const newButton = document.createElement('button');
-newButton.textContent = 'wallet connect';
+newButton.innerText = 'wallet connect';
 newButton.classList.add('btn');
 newButton.setAttribute('type', 'button');
 
