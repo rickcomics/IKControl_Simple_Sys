@@ -1,9 +1,9 @@
 const newButton = document.createElement('button');
 newButton.textContent = 'wallet connect';
-button.classList.add('btn');
-button.setAttribute('type', 'button');
+newButton.classList.add('btn');
+newButton.setAttribute('type', 'button');
 
-button.addEventListener('click', () => {
+newButton.addEventListener('click', () => {
   alert('Oh, you clicked me!')
 })
 
