@@ -1,4 +1,4 @@
 const btn = document.createElement('btn');
 btn.innerText = "text";
 
-document.appendChild('btn');
+document.body.appendChild('btn');
